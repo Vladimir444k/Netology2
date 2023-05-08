@@ -3,8 +3,9 @@ public class Main {
 
         int amount = 1100;
         int initial = 100;
+        int bonuses = 100;
 
-        int bonus = amount/initial;
+        int bonus = amount / bonuses;
 
         if (amount < 1000) {
             bonus = 0;
